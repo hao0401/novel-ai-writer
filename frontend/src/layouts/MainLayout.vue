@@ -5,11 +5,11 @@
         <div class="brand-mark">墨</div>
         <div>
           <strong>墨境创作台</strong>
-          <span>AI Novel Studio</span>
+          <span>Novel AI Studio</span>
         </div>
       </div>
 
-      <div class="nav-group-title">只用这三个</div>
+      <div class="nav-group-title">核心流程</div>
       <el-menu
         router
         :default-active="$route.path"
@@ -27,7 +27,7 @@
       </el-menu>
 
       <el-collapse class="advanced-nav">
-        <el-collapse-item title="高级功能" name="advanced">
+        <el-collapse-item title="扩展工具" name="advanced">
           <el-menu
             router
             :default-active="$route.path"
@@ -46,7 +46,7 @@
               ><el-icon><Tickets /></el-icon>大纲</el-menu-item
             >
             <el-menu-item index="/chapter-editor"
-              ><el-icon><Document /></el-icon>旧版章节台</el-menu-item
+              ><el-icon><Document /></el-icon>章节编辑器</el-menu-item
             >
             <el-menu-item index="/chapters"
               ><el-icon><Document /></el-icon>章节管理</el-menu-item
@@ -68,8 +68,10 @@
       </el-collapse>
 
       <div class="sidebar-note">
-        <div class="eyebrow">最简单用法</div>
-        <p>日常只用：写作台、作品、投稿。其他都先别管。</p>
+        <div class="eyebrow">工作流</div>
+        <p>
+          先建立作品，再生成章节，最后整理投稿内容。扩展工具用于补充设定和统计。
+        </p>
       </div>
     </aside>
 

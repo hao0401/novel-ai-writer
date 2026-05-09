@@ -3,10 +3,9 @@
     <section class="quick-hero paper-card">
       <div>
         <div class="eyebrow">QUICK WRITE</div>
-        <h1>直接写，不用先研究系统</h1>
+        <h1>从作品到章节，一页完成写作</h1>
         <p>
-          这个页面覆盖最常用流程：选择小说 → 生成一章 → 修改保存 →
-          导出投稿。人物、大纲、世界观以后需要时再补。
+          写作台整合选择作品、生成章节、修改草稿和导出稿件四个步骤。人物、大纲、世界观等资料可以在需要时继续补充。
         </p>
       </div>
       <div class="hero-metrics">
@@ -31,12 +30,12 @@
           >
         </div>
         <div class="helper-text">
-          不用填完所有设定。先有一个作品名，就可以生成章节。
+          先选择或创建作品，即可开始生成章节；详细设定可以后续完善。
         </div>
 
         <div class="panel-title mt">
           <strong>2. 生成设置</strong>
-          <span class="muted">可不填复杂设定</span>
+          <span class="muted">按需补充</span>
         </div>
         <el-form label-position="top">
           <el-form-item label="章节标题">
@@ -131,8 +130,8 @@
     <section class="paper-card bottom-note">
       <strong>觉得生成效果不稳定？</strong>
       <span
-        >再去补「人物设定」「世界观」「大纲」，AI
-        会有更多上下文。只是想快速演示或写一章，停留在本页就够了。</span
+        >完善「人物设定」「世界观」「大纲」后，AI
+        会获得更完整的上下文；快速写作时也可以直接在本页生成和修改章节。</span
       >
     </section>
 

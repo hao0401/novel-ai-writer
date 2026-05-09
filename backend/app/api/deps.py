@@ -17,14 +17,14 @@ def get_current_user(
     if not username:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="???????????",
+            detail="登录已过期，请重新登录",
             headers={"WWW-Authenticate": "Bearer"},
         )
     user = db.query(User).filter(User.username == username).first()
     if not user:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="?????",
+            detail="用户不存在，请重新登录",
             headers={"WWW-Authenticate": "Bearer"},
         )
     return user
